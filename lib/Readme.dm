@@ -23,25 +23,19 @@
 - 📝 **Syntax:**
     
     ```dart
-    dart
-    CopyEdit
     Navigator.pop(context);
-    
     ```
     
     - 📌 **`context`:** This parameter represents the current BuildContext, linking the pop action to the widget tree.
 - 🚀 **Example in a Button:**
     
     ```dart
-    dart
-    CopyEdit
     ElevatedButton(
       onPressed: () {
         Navigator.pop(context);
       },
       child: Text('Go Back'),
     );
-    
     ```
     
     - ✅ **Explanation:** When the button is pressed, it triggers the pop action, navigating back to the previous screen.
@@ -55,10 +49,7 @@
     - 💡 **Example:**
         
         ```dart
-        dart
-        CopyEdit
         Navigator.pop(context, 'Data from second screen');
-        
         ```
         
 - 🎯 **Receiving Data:**
@@ -66,8 +57,6 @@
     - 🔧 **Example:**
         
         ```dart
-        dart
-        CopyEdit
         // Navigate to a new screen and wait for the result
         final result = await Navigator.push(
           context,
@@ -76,9 +65,7 @@
         
         // Use the returned data
         print(result);
-        
         ```
-        
 
 ---
 
@@ -88,8 +75,6 @@
     - 💻 **Code:**
         
         ```dart
-        dart
-        CopyEdit
         import 'package:flutter/material.dart';
         
         void main() {
@@ -168,7 +153,6 @@
             );
           }
         }
-        
         ```
         
     - 🌟 **Explanation:**
